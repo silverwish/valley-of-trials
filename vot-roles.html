@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="world of warcraft, wow, warcraft, guide, beginner, damage, healer, tank, roles">
+        <meta name="author" content="Sidge">
+        <meta name="description" content="Valley of Trials is an interactive website designed to teach new prospective World of Warcraft players everything they need to know to have a magical first adventure into Azeroth, and to have a solid foundation on which to improve.">
+        <title>Valley of Trials</title>
+
+        <meta name="og:title" content="Valley of Trials">
+        <meta name="og:description" content="Valley of Trials is an interactive website designed to teach new prospective World of Warcraft players everything they need to know to have a magical first adventure into Azeroth, and to have a solid foundation on which to improve.">
+        <!-- <meta name="og:image" content="/url to website image/"> -->
+        <!-- <meta name="og:url" content="/url to website address/"> -->
+        <meta name="og:type" content="website">
+
+        <meta name="twitter:card" content="summary_large_image">
+        <!-- <meta name="twitter:site" content="/url to website address/"> -->
+        <meta name="twitter:title" content="Valley of Trials">
+        <meta name="twitter:description" content="Valley of Trials is an interactive website designed to teach new prospective World of Warcraft players everything they need to know to have a magical first adventure into Azeroth, and to have a solid foundation on which to improve.">
+        <!-- <meta name="twitter:image" content="/url to website image/"> -->
+
+        <link rel="apple-touch-icon" sizes="180x180" href="media/images/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="media/images/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="media/images/favicons/favicon-16x16.png">
+        <link rel="manifest" href="media/images/favicons/site.webmanifest">
+
+        <link rel="stylesheet" href="css/vot-styles.css" type="text/css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Neuton&display=swap">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </head>
+    
+    <body>
+        <header>
+            <nav>
+                <div id="nav-title">
+                    <a href="vot-home.html" type="text/html">Home</a>
+                </div>
+
+                <ul id="nav-links">
+                    <li id="dropdown-core">
+                        <a href="vot-core.html" id="current" class="mob-prev-def" type="text/html">Core Decisions</a>
+
+                        <div id="core-links">
+                            <a href="vot-core.html" type="text/html">Preface</a>
+                            <a href="vot-roles.html" id="current" type="text/html">Roles</a>
+                            <a href="vot-factions.html" type="text/html">Factions & Races</a>
+                        </div>
+                    </li>
+
+                    <li id="dropdown-classes">
+                        <a href="vot-classes.html" class="mob-prev-def" type="text/html">Classes</a>
+
+                        <div id="classes-links">
+                            <a href="vot-classes.html" type="text/html">Preface</a>
+                            <a href="vot-classes-tanks.html" type="text/html">Damage</a>
+                            <a href="vot-classes-healers.html" type="text/html">Healers</a>
+                            <a href="vot-classes-tanks.html" type="text/html">Tanks</a>
+                        </div>
+                    </li>
+
+                    <li id="dropdown-suggest">
+                        <a href="vot-suggest.html" class="mob-prev-def" type="text/html">Suggestions</a>
+
+                        <div id="suggest-links">
+                            <a href="vot-suggest-general.html" type="text/html">General</a>
+                            <a href="vot-suggest-addons.html" type="text/html">Addons</a>
+                        </div>
+                    </li>
+
+                    <li id="gallery"><a href="vot-gallery.html" type="text/html">Gallery</a></li>
+                </ul>
+
+                <div id="nav-burger">
+                    <div id="line-1"></div>
+                    <div id="line-2"></div>
+                    <div id="line-3"></div>
+                </div>
+            </nav>
+        </header>
+
+        <main id="roles">
+            <section id="roles-content">
+                <!-- <div id="role-icons">
+                    <img src="media/images/icons/roles/dmg.png" id="damage-icon">
+                    <img src="media/images/icons/roles/healing.png" id="healer-icon">
+                    <img src="media/images/icons/roles/tanking.png" id="tank-icon">
+                </div> -->
+
+                <h1 id="roles-heading">ROLES</h1>
+
+                <div id="roles-intro">
+                    <p>Along with many other things, World of Warcraft is a role-playing game. Players can and have played around with this idea in-game, but when it comes to doing actual content, choosing between the Damage, Healer and Tank role influences what it feels like to play your character. This is largely attributed to each role's fundamental responsibilities - damage-dealers do damage, healers heal and tanks control their enemies. This might seem redundant and self-explanatory, but there is a noticeable difference between what a dps, tank and healer feel like to play. This section attempts to make clear why that is the case.</p>
+                </div>
+
+                <div id="roles-roles">
+                    <button id="damage-button">DAMAGE</button>
+
+                    <article id="roles-damage">
+                        <div id="roles-damage-content"> <!-- extra div added inside the article element to allow for padding -->
+                            <p>Damage-dealers, otherwise known generically as DPS (damage-per-second), or dds, is the most ubiquitous and competitive role in World of Warcraft, and you’ll find groups across any content dominated by them. Every single class has a DPS specialisation.</p>
+    
+                            <p>Damage-dealers can be either of two types: melee or ranged. For the most part, which type you play comes down to personal preference – once you try out different damage types you’ll begin to understand what feels most intuitive to you. As a consequence of the distance that each damage type is from their enemies, melee and ranged DPS perform slightly different functions in PvE content. For example, melee DPS classes are great at providing on-demand damage, but they are hamstrung any time they need to move out of range of bosses/ enemies to do mechanics, reducing their DPS uptime. Conversely, ranged DPS are otherwise unrestricted by distance and can effortlessly handle mechanics which are outside of melee range, but have to contend with casting their abilities which can limit their mobility.</p>
+        
+                            <p>DPS types can be broken down even further. There are some DPS which specialise in doing damage-over-time (DoT), gradually melting away their enemies; others which do big burst damage within their cooldown windows; some which command mighty pets to slaughter their enemies; others yet which provide more consistent, reliable damage. A deep dive into the DPS specialisations to which these damage types apply can be viewed in the classes section.</p>
+        
+                            <p>At face-value, DPS players might appear to have fewer critical responsibilities than a healer or a tank, but the reality is that good DPS players can control the lethality of enemies almost as well as tanks. The most significant responsibility (and simplest) DPS players have to carry out is reducing enemy health to zero. This sounds straightforward, but optimising DPS while simultaneously fulfilling other duties is tricky, and takes a fair bit of practice to get good at before it becomes intuitive.</p>
+        
+                            <p>It’s not immediately obvious that DPS can mitigate damage, but they can and should. The way they do this is by interrupting, stunning and crowd-controlling (CCing) troublesome enemies. This either prevents the damage from a heavy-hitting incoming ability or temporarily removes the enemy that casts the ability from the equation while other enemies are dealt with. Frequent and smart use of stuns, CC and interrupts is part of what separates a good DPS player from a bad one.</p>
+        
+                            <p>In World of Warcraft, Blizzard loves to give enemies abilities which spawn puddles underneath the player’s feet that they have to move out of. Times like these are an example where DPS positioning is really important – poorly positioned players might spawn a puddle in a tight spot and end up ninja-pulling even more enemies (this is a good way to really stress your healer out, so don’t do it!); well-positioned players will have been aware the ability is coming and positioned themselves appropriately, giving themselves space to move out while avoiding pulling extra enemies and placing the puddle on top of other players. A simpler example of good positioning is melee DPS standing behind the boss as much as possible, which in-turn increases auto-attack damage.</p>
+                        </div>
+                    </article>
+
+                    <button id="healer-button">HEALER</button>
+
+                    <article id="roles-healer">
+                        <div id="roles-healer-content">
+                            <p>Healers are an essential part of all types of group content, because they specialise in keeping their team alive. After tanks, they are the most desired role – you’ll generally find getting into groups for different types of content quicker as a healer. Strangely enough, playing a healer will actually make you a better DPS player too (if you decide to try a DPS specialisation in the future), since you will quickly gain an understanding of all the silly things some DPS players do that cause deaths.</p>
+    
+                            <p>Each healer has their own unique arsenal, which means that particular healers can be more advantageous to bring to certain encounters to deal with specific damage events. Despite this, all healers have a common toolkit to do their job, so generally speaking you won’t be hindered by your preferences in class should you choose to take up the healing role.</p>
+        
+                            <p>Healers generally operate at range and cast or channel their abilities, with the exception of the Holy Paladin. Similar to the variation of damage types, the art of healing can be performed in a number of different ways. You have healers who excel at single-target healing, being able to handle large amounts of incoming damage on your tank, but you also have healers that specialise in throughput, or raid-wide healing. Either of these types are the most straightforward and beginner-friendly, and almost always offer something valuable to group content. Perhaps the most unconventional are the damage-dealer healers, of which there are two specialists – one resets their main healing ability via dealing damage, and the other increases their healing throughput by dealing damage. Last is the healer which specialises in keeping their party alive via potent heal-over-time (HoT) spells.</p>
+        
+                            <p>The biggest factor which will dictate which healing type you choose is playstyle. There is quite a big difference in playstyle between a damage healer and a HoT-based healer. Each have their strengths and limitations, and you can learn about the specifics in the classes deep dive section of this website.</p>
+        
+                            <p>Any given healer’s responsibilities vary as a consequence of their unique toolkits, but fundamentally (obviously), it is a healers responsibility to prevent their party from dying. Not only does this mean healing, but it also means removing nasty debuffs that your party members are affected by, using your utility to get your group out of potentially hairy situations, and mitigating or preventing as much incoming damage where possible.</p>
+        
+                            <p>Mitigation and prevention can be partially achieved through a healer’s repertoire, but perhaps just as significant is your positioning as a healer – knowing where to stand and where to move in any encounter is sometimes overlooked, but it can be the difference between your group dying and surviving otherwise lethal damage. Unfortunately, there are no definitive guides to good positioning. Knowledge of the extremely harmful abilities in encounters is useful, and it is the manner in which you counter those abilities which leads to being positioned effectively. That understanding comes with experience, and the more of that you get the more intuitive positioning will become.</p>
+        
+                            <p>Most of us have heard the old saying “Fail to prepare, prepare to fail”. Striving to be a good healer requires a solid understanding of what is going to cause the most trouble to your group before that trouble happens, which allows you to prepare accordingly. Good healers are separated from bad healers on this basis.</p>
+                        </div>
+                    </article>
+
+                    <button id="tank-button">TANK</button>
+
+                    <article id="roles-tank">
+                        <div id="roles-tank-content">
+                            <p>Tanks can be considered as the group wardens, and are generally the de facto guides for the rest of the party members throughout an instance, particularly in dungeons. In environments like raids, multiple tanks (usually 2) are essential in managing boss mechanics. Due to the scarcity of tanks relative to other roles, you will generally find getting into groups the fastest as it is the most sought-after role in PvE content. </p>
+    
+                            <p>In PvP battlegrounds, 1 tank with high mobility is usually the designated flag carriers or base holders, since their mitigation, defensive abilities and high health pools can keep them alive for longer after getting focused by the enemy team. However, tanks with low mobility will find it difficult to get into these types of groups, since their toolkits are generally not compatible with the fast-paced environment of battlegrounds. This lack of compatibility with the nature of PvP in World of Warcraft is the reason that tanks are seldom seen in the arena environment.</p>
+        
+                            <p>Mechanically a tank is about being in control and mitigating as much damage as possible and or recovering from heavy damage quickly. Some tanks lack mitigation, but have really strong self-healing, whereas other tanks are reasonable at both, but not really exceptional in either. Similar to the healing role, pre-emptive mitigation of hard-hitting abilities is crucial to a tank’s success. This comes via experience and a decent knowledge and understanding of the encounter – effective mitigation demands a decent understanding of incoming damage so defensive cooldowns can be appropriately prepared ahead of time. For the tanks with weak mitigation but high self-healing, the preparation involves knowing what harmful abilities to save resources and cooldowns for, which makes it easier to recover faster.</p>
+        
+                            <p>Taunt is an important part of a tank’s toolkit in PvE – it isn’t an ability that is part of the damage rotation, but should be used when quick control of new enemies entering the fight is needed, or in a raid environment and the other tank needs a time off the boss to drop a debuff that would otherwise kill them. However, taunting an enemy isn’t enough most of the time, a tank needs to actually damage the enemy taunted to generate and maintain threat, otherwise after the taunt duration has finished, the enemy will go back to attacking whoever has highest threat – if that’s not the tank, that’s not good!</p>
+        
+                            <p>Tanks set the pace for the dungeon, but should pay attention to DPS players who start to pull for you. While annoying, it might be a sign that they are comfortable going a little bit faster and pulling more. Sometimes extra enemies get pulled by accident and things turn chaotic quickly. It is a tank’s responsibility to control those moments, since no other role is more effective at securing control and keeping the enemies off other players. </p>
+        
+                            <p>Positional play is important for a tank too, since good tank positioning means good DPS uptime, which in turn delivers a faster, smoother dungeon run. An example of this would be line-of-sighting ranged enemies so they run into melee range, meaning they can be cleaved down with the other enemies that are being attacked. On the note of delivering greater DPS uptime, in dungeons good tanks will turn the boss around (so the rest of the group is behind the enemy), meaning that melee DPS get parried less, and the group doesn’t accidentally get cleaved by any enemy ability.</p>
+                        </div>
+                    </article>
+                </div>
+
+                <div id="scroll-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg>
+                </div>
+
+            </section>
+        </main>
+
+        <footer>
+            <p>Developed by <span id="Sidge">Sidge</span> &copy; 2021. All rights reserved.</p>
+        </footer>
+
+        <script src="vot.js" type="text/javascript"></script>
+    </body>
+</html>
