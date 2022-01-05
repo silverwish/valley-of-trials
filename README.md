@@ -1,3 +1,9 @@
+UPDATE (05/01/2022):
+
+I no longer play World of Warcraft, so no longer have an interest in making a website teaching users the basics of the game. However, it was an important step in my web development learning journey, so it will remain in the public view as an archive.
+
+---
+
 Welcome to my first ever large project, Valley of Trials! I started this project with an aim to educate new prospective World of Warcraft players on the basics of the game and what to think about when creating their first character. I also wanted to try and instil some sense of wonder about the game, something that most of the playerbase has felt at one time or another.
 
 This was my first ever project. I used it as a playground for applying the stuff I had been learning from online resources and Mozilla's course on web development. Valley of Trials sought in some way to alleviate any uncertainties about starting a game as complicated as World of Warcraft is. It's obviously unfinished, but I learned a lot to get the project to its current state. I made Valley of Trials before I had any idea how to use Git and GitHub, or even before I had much JavaScript knowledge.
